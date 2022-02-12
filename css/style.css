@@ -378,6 +378,10 @@ container {
     margin-top: -720px;
 }
 
+.waterproof-text {
+    font-family: Poppins;
+}
+
 .guarantee {
     padding-left: 180px;
     padding-top: 90px;
@@ -1150,7 +1154,7 @@ container {
     }
 
     .how-it-works-title {
-        margin-bottom: 200px;
+        margin-bottom: 50%;
     }
 
 
@@ -1228,6 +1232,7 @@ container {
 
     .logos-wrapper {
         padding-bottom: 100%;
+        margin-top: 50%;
     }
 
     .customer-feedback {
