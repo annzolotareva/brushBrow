@@ -17,30 +17,34 @@
 
 <body>
     <div class="main-container">
-        <div class="header header-contaner" display="none">
-            <a href="/" class="header-logo">
-                <img width="106" src="images/logo.svg" alt="Logo: HeyBerauty" class="logo-image">
-            </a>
-            <div class="header-menu">
-                <ul>
-                    <li><a href="#">Track your order</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
+        <div class="header">
+            <div class="header-contaner">
+                <a href="/" class="header-logo">
+                    <img src="images/logo.svg" alt="HeyBeauty" class="logo-image">
+                </a>
+                <nav class="header-menu">
+                    <ul class="header-menu__list">
+                        <li><a href="#">Track your order</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                    <a href="#" class="shopping-cart">
+                        <img class="shopping-cart-img" src="images/shopping-cart.png" alt="shopping-cart">
+                    </a>
+                </nav>
             </div>
-            <a href="#" class="shopping-cart">
-                <img class="shopping-cart-img" src="images/shopping-cart.png" alt="shopping-cart">
-            </a>
         </div>
-        <div class="mobil-menu header-contaner">
-            <button class="header-burger" display="none">
-                <img src="./images/burger-menu.png" alt="">
-            </button>
-            <a href="/" class="header-logo">
-                <img width="106" src="images/logo.svg" alt="Logo: HeyBerauty" class="logo-image">
-            </a>
-            <a href="#" class="shopping-cart">
-                <img class="shopping-cart-img" src="images/shopping-cart.png" alt="shopping-cart">
-            </a>
+        <div class="mobil-menu" display="none">
+            <div class="header-contaner">
+                <button class="header-burger" display="none">
+                    <img src="./images/burger-menu.png" alt="">
+                </button>
+                <a href="/" class="header-logo">
+                    <img width="106" src="images/logo.svg" alt="Logo: HeyBerauty" class="logo-image">
+                </a>
+                <a href="#" class="shopping-cart">
+                    <img class="shopping-cart-img" src="images/shopping-cart.png" alt="shopping-cart">
+                </a>
+            </div>
         </div>
         <div class="burger-menu_overlay">
             <div class="nav-menu__close">✖</div>
@@ -58,39 +62,39 @@
         </div>
         <main class="main">
             <section class="final-touch">
-                <div class="final-touch-contaner">
+                <div class="contaner">
+                    <h1 class="final-touch-title">Your final touch <br />
+                        For the perfect look
+                    </h1>
+                    <img class="decor-final-touch-top" src="images/tinal-touch-title-ellipse.png">
                     <div class="final-touch__inner">
-                        <h1 class="final-touch-title">Your final touch <br />
-                            For the perfect look
-                        </h1>
-                        <img class="decor-final-touch-top" src="images/tinal-touch-title-ellipse.png">
-                        <div class="final-touch-wrapper">
-                            <img id="main-img" src="images/background-model.png" alt="model">
-                            <div class="final-touch-content">
-                                <p class="final-touch-text">Just pick and brush your eyebrows to fill them out</p>
-                                <div class="shop-now-button-wrapper">
-                                    <button class="shop-now-button">
-                                        <span class="btn-shop-now-text">Shop now</span>
-                                        <img class="btn-arrow" src="images/btn-arrow.svg" alt="arrow">
-                                    </button>
-                                    <p><a href="#">Explore more</a></p>
+                        <img id="main-img" src="images/background-model.png" alt="model">
+                        <div class="final-touch-content">
+                            <p class="final-touch-text">Just pick and brush your eyebrows to fill them out</p>
+                            <div class="shop-now-button-wrapper">
+                                <button class="shop-now-button">
+                                    <span class="btn-shop-now-text">Shop now</span>
+                                    <img class="btn-arrow" src="images/btn-arrow.svg" alt="arrow">
+                                </button>
+                                <div class="explore-more"><a href="#">Explore more</a>
+                                    <hr>
                                 </div>
-                                <div class="final-touch-examples-of-using">
-                                    <img id="eyebrows" src="images/background-eyebrows.png"
-                                        alt="first example of using">
-                                    <img src="images/background-model-sideways.png" alt=" second example of using">
-                                </div>
-                                <img id="brushes-img" src="images/background-2brushes.svg" alt="brushes">
                             </div>
+                            <div class="final-touch-examples-of-using">
+                                <img id="eyebrows" src="images/background-eyebrows.png" alt="first example of using">
+                                <img src="images/background-model-sideways.png" alt=" second example of using">
+                            </div>
+
                         </div>
                     </div>
+                    <img id="brushes-img" src="images/background-2brushes.svg" alt="brushes">
                     <img class="decor-final-touch-buttom" src="images/final-touch-ellipse.png" alt="">
                 </div>
             </section>
             <section class="logos">
                 <div class="contaner">
+                    <h2 class="logos-title">Featured on</h2>
                     <div class="logos-wrapper">
-                        <h2 class="logos-title">Featured on</h2>
                         <div class="logos-images">
                             <img class="logos-image" src="images/logo-Neuhaus.png" alt="logo Neuhaus">
                             <img class="logos-image" src="images/logo-Rush.png" alt="logo Rush">
