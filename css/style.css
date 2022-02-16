@@ -164,7 +164,8 @@ container {
 }
 
 .final-touch {
-    padding: 37px 180px;
+    padding: 37px 180px 214px 180px;
+    position: relative;
 }
 
 .final-touch-title {
@@ -190,6 +191,17 @@ container {
     position: absolute;
 }
 
+.final-touch__ellipce-buttom {
+    position: absolute;
+    left: 47%;
+    top: 63%;
+    transform: translate(-50%, -50%);
+    max-width: 54.6rem;
+    max-height: 51rem;
+    width: 100%;
+    height: 100%;
+}
+
 .final-touch__inner {
     display: flex;
     justify-content: space-between;
@@ -211,6 +223,7 @@ container {
     display: block;
     max-width: 763px;
     width: 100%;
+
 }
 
 .final-touch-text {
@@ -270,6 +283,18 @@ container {
     width: 100%;
 }
 
+.final-touch__decor {
+    position: absolute;
+    left: 80%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 54.6rem;
+    max-height: 51rem;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
 #eyebrows {
     margin-right: 41px;
 }
@@ -326,7 +351,7 @@ container {
 }
 
 .how-it-works {
-    padding: 37px 180px;
+    padding: 193px 180px 81px 180px;
 }
 
 .how-it-works-decor,
@@ -418,7 +443,7 @@ container {
 }
 
 .easy-to-use {
-    padding: 37px 180px;
+    padding: 81px 180px 91px 180px;
 }
 
 .first-card-easy-to-use {
@@ -437,7 +462,7 @@ container {
 }
 
 .waterproof {
-    padding: 37px 180px;
+    padding: 91px 180px 136px 180px;
     display: block;
 }
 
@@ -448,6 +473,7 @@ container {
 .waterproof-wrapper {
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
 
 .waterproof-title-group {
@@ -521,10 +547,12 @@ container {
 }
 
 .waterproof-decor {
-    float: right;
+    position: absolute;
+    left: 90%;
+    transform: translate(-60%, -60%);
     max-width: 433px;
+    width: 100%;
     z-index: -1;
-    margin-top: -180px;
 }
 
 .waterproof-text {
@@ -532,13 +560,23 @@ container {
 }
 
 .guarantee {
-    padding: 37px 180px;
+    padding: 136px 180px 165px 180px;
+    position: relative;
 }
 
 .guarantee-title-group {
     display: flex;
     max-width: 816px;
     width: 100%;
+}
+
+.guarantee__decor {
+    max-width: 831px;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    left: 90%;
+    transform: translate(-60%, -98%);
 }
 
 #guarantee-title-img {
@@ -566,7 +604,6 @@ container {
 #guarantee-brushes-img {
     max-width: 831px;
     width: 100%;
-    margin-top: -165px;
 }
 
 .guarantee__inner {
@@ -580,7 +617,7 @@ container {
 }
 
 .customer-feedback {
-    padding: 37px 180px;
+    padding: 165px 180px 225px 180px;
     display: block;
 }
 
