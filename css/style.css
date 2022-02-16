@@ -744,7 +744,7 @@ container {
 }
 
 .product-section {
-    display: flex;
+    display: block;
     margin-top: 90px;
     padding-left: 180px;
     padding-bottom: 82px;
