@@ -150,8 +150,10 @@ ul {
     color: #585858;
 }
 
-.header-menu__list li {
+.footer-menu__list li {
     margin-right: 47px;
+    max-width: 153px;
+    width: 100%;
 }
 
 
@@ -1303,6 +1305,16 @@ container {
     }
 }
  */
+
+@media (max-width: 1920px) {
+    .container {
+        max-width: 1022px;
+    }
+
+    .final-touch {
+        background-size: 50%;
+    }
+}
 
 @media (max-width: 1875px) {
     .final-touch-title {
